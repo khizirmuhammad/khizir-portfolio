@@ -11,9 +11,8 @@
     <link rel="stylesheet" href="./styles/portfolio.css">
 </head>
 <body class="Open Sans">
-
-    <header class="new-div">
-                
+    <head >
+        
 
         <nav>
             <h3 class="nav-title">Ma<span class="text-primary">r</span>y</h3>
@@ -41,7 +40,7 @@
               <img class="banner-profile-pic" src="hardy.png.png" alt="">
         </div>
       
-    </header>
+    </head>
 
 <div class="new-div">
 
