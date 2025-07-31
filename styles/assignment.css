@@ -1,0 +1,176 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(/Assets/Hero-bg.png);
+    background-size: cover;
+    color: rgb(47, 47, 97);
+    text-align: center;
+    padding: 40px;
+
+}
+
+/* Header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20 px 40px;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(50, 56, 210);
+}
+
+.signup-btn{
+    background-color: azure;
+    color: rgb(99, 70, 61);
+    padding: 10 px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Main Content */
+.main-content{
+    margin-top: 100px;
+}
+
+.main-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(46, 27, 93);
+    margin-bottom: 30px;
+
+}
+
+.cta-btn{
+   background-color: azure;
+    color: rgb(99, 70, 61);
+    padding: 10 px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.action-section{
+    display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: rgb(182, 132, 98);
+ padding: 60px 40px;
+ border-radius: 20px;
+ margin-top: 60px;
+
+}
+.action-content{
+    max-width: 50%;
+}
+
+.action-content h2{
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+}
+
+.action-content p{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+
+
+}
+
+.preview-btn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(6, 37, 27);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.action-image img {
+width: 400px;
+border-radius:20px;
+box-shadow: 0 10px 30px rgb(red, green, blue);
+
+}
+
+/* stats-section */
+.stats-section{
+    background-color: rgb(165, 199, 214);
+padding: 60px 40px;
+border-radius: 20px;
+margin: 60px auto;
+max-width: 900px;
+text-align: center;
+}
+
+.stats-section h2{
+    font-size:24px;
+    color: blueviolet;
+    margin-bottom: 40px;
+    font-weight: 600;
+
+}
+
+.stats-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.stat-box {
+    margin: 10px 20px;
+
+}
+
+.stat-box h3 {
+    font-size: 35px;
+    color: rgb(249, 249, 249);
+    margin-bottom: 15px;
+}
+
+.stat-box p{
+    font-size: 15px;
+    color: rgb(38, 38, 62);
+}
+
+
+.testimonials-section {
+  background: #fff;
+  padding: 60px 20px;
+}
+
+.testimonial-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.testimonial {
+  background: #f8f9fb;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.focus-section {
+  padding: 60px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.focus-image img {
+  max-width: 100%;
+  margin: 20px 0;
+}
+
+.text-center {
+  text-align: center;
+}
